@@ -1,0 +1,83 @@
+html,body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    background: #F2F6FA;
+    
+  }
+  footer {
+    background-color: #F2F6FA !important;
+  }
+
+  #app {
+    padding-top: 50px;
+  }
+
+  div.navbars{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+  }
+
+  .topNav .container {
+    border-bottom: 1px solid #E6EAEE;
+  }
+  .container .columns {
+    margin: 3rem 0;
+  }
+  .navbar-menu .navbar-item {
+    padding: 0 1rem;
+  }
+  aside.menu {
+    position: sticky;
+    top: 10%;
+  }
+
+  aside.menu .menu-list {
+    line-height: 1.5;
+  }
+  aside.menu .menu-label {
+    padding-left: 10px;
+    font-weight: 700;
+  }
+  .button.is-primary.is-alt {
+    background: #00c6ff;
+    background: -webkit-linear-gradient(to bottom, #0072ff, #00c6ff);
+    background: linear-gradient(to bottom, #0072ff, #00c6ff);
+    font-weight: 700;
+    font-size: 14px;
+    height: 3rem;
+    line-height: 2.8;
+  }
+
+
+  article.post {
+    margin: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #E6EAEE;
+  }
+  article.post:last-child {
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+  .menu-list li{
+    padding: 5px;
+  }
+  
+
+.card {
+    width: 80%;
+}
+.card .header {
+    padding: 5px 10px;
+}
+.card-footer .columns {
+    width: 100%;
+}
+.card-footer{
+  padding: 1.5rem;
+}
+.footer {
+    margin-top: 10vh;
+    padding: 2rem 1.5rem;
+}

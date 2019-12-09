@@ -12,16 +12,14 @@
 </template>
 
 <script>
+
+import { mapState, mapActions } from 'vuex'
 export default {
-    data() {
-        return {
-            sections: []
-        }
-    },
+    computed: mapState({
+        sections: state => state.sections.all
+    }),
     async created() {
-        const {data} = await axios.get('/api/sections');
-        this.sections = data;
-        
+        this.$store.dispatch('sections/getAllSections');
     }
 }
 </script>
